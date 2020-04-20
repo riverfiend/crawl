@@ -1007,6 +1007,25 @@ MAP
    .........
 ENDMAP
 
+NAME:  riverfiend_temple_overgrown_octagon
+SUBST: C = x:50 t:2 1:10
+MONS:  plant
+TILE:  C = wall_brick_vines
+: temple_entry (_G)
+MAP
+   @CCC@
+  .C...C.
+ .C.C.C.C.
+@C..C.C..C@
+C.CC...CC.C
+C....O....C
+C.CC...CC.C
+@C..C.C..C@
+ .C.C.C.C.
+  .C...C.
+   @CCC@
+ENDMAP
+
 ##############################################################################
 # <<M>> Temple maps
 ##############################################################################
